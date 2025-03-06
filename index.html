@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtor - Real Estate</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a798643e01.js" crossorigin="anonymous"></script>
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+<section id="title">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Realtor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#properties">Properties</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section-->
+    <header class="hero-section text-white text-center d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-start">
+                    <h2 class="text-uppercase text-warning">Welcome to Realtor</h2>
+                    <h1 class="fw-bold">Find Your New Home Today With Us.</h1>
+                    <p>Finding the home, commercial, or office space you’ll love to rent or buy just got easier.</p>
+                    <a href="#properties" class="btn btn-warning">Discover more</a>
+                </div>
+            </div>
+        </div>
+    </header>
+</section>
+    <!-- Latest Property Listed Section -->
+<section id="latest-properties" class="container my-5">
+    <h2 class="text-center mb-4">Latest Property Listed</h2>
+    <div class="row">
+        <!-- Property 1 -->
+        <div class="col-lg-3 col-md-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="property-card">
+                <div class="property-image" style="background-image: url('Images/prop-1.jpeg');">
+                    <span class="badge featured">Featured</span>
+                    <span class="badge for-sale">For Sale</span>
+                </div>
+                <div class="property-info">
+                    <h5 class="property-type">HOUSE</h5>
+                    <p class="property-price">$125,000</p>
+                    <h6 class="property-name">Jakarta Garden City House</h6>
+                    <p class="property-location">Jakarta, Indonesia</p>
+                    <p class="property-details">
+                        <i class="fas fa-bed"></i> 2 &nbsp;
+                        <i class="fas fa-bath"></i> 3 &nbsp;
+                        <i class="fas fa-expand"></i> 1472 sqft
+                    </p>
+                    <a href="#" class="btn btn-warning">More detail</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Property 2 -->
+        <div class="col-lg-3 col-md-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="property-card">
+                <div class="property-image" style="background-image: url('Images/prop-2.jpg');">
+                    <span class="badge for-rent">For Rent</span>
+                </div>
+                <div class="property-info">
+                    <h5 class="property-type">APARTMENT</h5>
+                    <p class="property-price">$105,000</p>
+                    <h6 class="property-name">Asya Apartment and Office Tower</h6>
+                    <p class="property-location">Hanoi, Vietnam</p>
+                    <p class="property-details">
+                        <i class="fas fa-bed"></i> 3 &nbsp;
+                        <i class="fas fa-bath"></i> 1 &nbsp;
+                        <i class="fas fa-expand"></i> 172 sqft
+                    </p>
+                    <a href="#" class="btn btn-warning">More detail</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Property 3 -->
+        <div class="col-lg-3 col-md-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="property-card">
+                <div class="property-image" style="background-image: url('Images/prop-3.jpg');">
+                    <span class="badge popular">Popular</span>
+                    <span class="badge for-rent">For Rent</span>
+                </div>
+                <div class="property-info">
+                    <h5 class="property-type">OFFICE</h5>
+                    <p class="property-price">$211,000</p>
+                    <h6 class="property-name">Ambassador Tower and Office</h6>
+                    <p class="property-location">Cakung, DKI Jakarta</p>
+                    <p class="property-details">
+                        <i class="fas fa-bed"></i> 2 &nbsp;
+                        <i class="fas fa-bath"></i> 1 &nbsp;
+                        <i class="fas fa-expand"></i> 1472 sqft
+                    </p>
+                    <a href="#" class="btn btn-warning">More detail</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Property 4 -->
+        <div class="col-lg-3 col-md-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="property-card">
+                <div class="property-image" style="background-image: url('Images/prop-4.jpg');">
+                    <span class="badge featured">Featured</span>
+                    <span class="badge for-sale">For Sale</span>
+                </div>
+                <div class="property-info">
+                    <h5 class="property-type">HOUSE</h5>
+                    <p class="property-price">$125,000</p>
+                    <h6 class="property-name">Lokamaya Green House</h6>
+                    <p class="property-location">Kuala Lumpur, Malaysia</p>
+                    <p class="property-details">
+                        <i class="fas fa-bed"></i> 2 &nbsp;
+                        <i class="fas fa-bath"></i> 3 &nbsp;
+                        <i class="fas fa-expand"></i> 1472 sqft
+                    </p>
+                    <a href="#" class="btn btn-warning">More detail</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- New Services Section -->
+<section class="services-section text-center py-5">
+    <div class="container">
+        <h5 class="text-warning">WHAT WE OFFER</h5>
+        <h2 class="fw-bold">Changing lives through real estate</h2>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <div class="row mt-4">
+            <div class="col-lg-3 col-md-12">
+                <div class="service-card" data-sr>
+                    <img src="Images/offer-1.jpeg" class="img-fluid" alt="Selling Properties">
+                    <div class="overlay">
+                        <h6>MARKETING</h6>
+                        <h4>Selling Properties</h4>
+                        <a href="#" class="btn btn-warning">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <div class="service-card" data-sr>
+                    <img src="Images/offer-2.jpeg" class="img-fluid" alt="Buying Properties">
+                    <div class="overlay">
+                        <h6>MARKETING</h6>
+                        <h4>Buying Properties</h4>
+                        <a href="#" class="btn btn-warning">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <div class="service-card" data-sr>
+                    <img src="Images/offer-3.jpeg" class="img-fluid" alt="Rent Properties">
+                    <div class="overlay">
+                        <h6>AGENT</h6>
+                        <h4>Rent Properties</h4>
+                        <a href="#" class="btn btn-warning">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <div class="service-card" data-sr>
+                    <img src="Images/offer-4.jpeg" class="img-fluid" alt="Property Consultations">
+                    <div class="overlay">
+                        <h6>SUPPORT</h6>
+                        <h4>Property Consultations</h4>
+                        <a href="#" class="btn btn-warning">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <!-- Why Choose Us Section -->
+   <section class="why-choose-us py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6" data-sr>
+                <h5 class="text-warning">WHY CHOOSE US</h5>
+                <h2 class="fw-bold">Let us guide you Home.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <div class="d-flex align-items-start mb-3">
+                    <i class="fa-solid fa-building fa-2x text-warning me-3"></i>
+                    <div>
+                        <h5>Top Company</h5>
+                        <p>Dignissim vestibulum feugiat vivamus nullam facilisis pretium eu quisque magnis augue dolor</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start mb-3">
+                    <i class="fa-solid fa-user-tie fa-2x text-warning me-3"></i>
+                    <div>
+                        <h5>Certified Property Agent</h5>
+                        <p>Dignissim vestibulum feugiat vivamus nullam facilisis pretium eu quisque magnis augue dolor</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start">
+                    <i class="fa-solid fa-headset fa-2x text-warning me-3"></i>
+                    <div>
+                        <h5>24/7 Support</h5>
+                        <p>Dignissim vestibulum feugiat vivamus nullam facilisis pretium eu quisque magnis augue dolor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonial Section -->
+<section class="testimonial py-5 text-center">
+    <div class="container">
+        <h5 class="text-warning">TESTIMONIAL</h5>
+        <h2 class="fw-bold">What customers are saying.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <div class="my-3">
+            <span class="fw-bold fs-4">4.8</span>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+        </div>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="bg-warning p-4 rounded shadow-sm">
+                        <div class="align-items-center mb-3">
+                            <img src="Images/testi1.jpg" class="rounded-circle me-2" width="100" alt="Kayla Morris">
+                            <div>
+                                <h5 class="mb-0">Kayla Morris</h5>
+                                <p class="text-muted">Founder Lokamart</p>
+                            </div>
+                        </div>
+                        <p>Hac malesuada taciti efficitur aliquam senectus a ex torquent etiam at per. Tellus gravida velit sagittis aliquam dolor efficitur. Sed natoque pretium porta nunc ultrices turpis.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-warning p-4 rounded shadow-sm">
+                        <div class="align-items-center mb-3">
+                            <img src="Images/testi2.jpg" class="rounded-circle me-2" width="100" alt="Beatrice Barker">
+                            <div>
+                                <h5 class="mb-0">Beatrice Barker</h5>
+                                <p class="text-muted">CEO Piccolog</p>
+                            </div>
+                        </div>
+                        <p>Hac malesuada taciti efficitur aliquam senectus a ex torquent etiam at per. Tellus gravida velit sagittis aliquam dolor efficitur. Sed natoque pretium porta nunc ultrices turpis.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+   
+<!-- Contact Section -->
+<section id="contact" class="contact py-5">
+    <div class="container text-center">
+        <h5 class="text-warning">CONTACT US</h5>
+        <h2 class="fw-bold">Get In Touch</h2>
+        <p class="text-muted">Have any questions? We'd love to hear from you.</p>
+
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning w-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="container text-center">
+        <div class="footer-logo">
+            <h3>Realtor</h3>
+        </div>
+        <p class="footer-text">Helping you find the perfect home.</p>
+        
+        <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#properties">Properties</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+        <p class="footer-bottom-text">&copy; 2025 Realtor. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
+    <!-- AOS JavaScript -->
+    <script src="index.js"></script> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // Animation duration in milliseconds
+    once: true, // Ensures animation happens only once
+    easing: 'ease-in-out', // Smooth animation effect
+  });
+</script>
+
+</body>
+</html>
